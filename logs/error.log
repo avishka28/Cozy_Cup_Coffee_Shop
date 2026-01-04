@@ -1,0 +1,337 @@
+[03-Dec-2025 14:46:29 UTC] PHP Warning:  Undefined array key "full_name" in C:\wamp64\www\coffee-shop\app\views\admin\reservation-details.php on line 9
+[03-Dec-2025 14:46:29 UTC] PHP Stack trace:
+[03-Dec-2025 14:46:29 UTC] PHP   1. {main}() C:\wamp64\www\coffee-shop\public\index.php:0
+[03-Dec-2025 14:46:29 UTC] PHP   2. AdminReservationController->showReservationDetails() C:\wamp64\www\coffee-shop\public\index.php:319
+[03-Dec-2025 14:46:29 UTC] PHP   3. BaseController->render($view = 'admin/reservation-details', $data = ['reservation' => ['id' => 1, 'customer_id' => 1, 'table_id' => 7, 'reservation_date' => '2025-12-05', 'reservation_time' => '09:15:00', 'number_of_guests' => 7, 'status' => '0', 'created_at' => '2025-12-03 20:16:18', 'updated_at' => '2025-12-03 20:16:18', 'table_number' => 7]]) C:\wamp64\www\coffee-shop\app\controllers\AdminReservationController.php:44
+[03-Dec-2025 14:46:29 UTC] PHP   4. require() C:\wamp64\www\coffee-shop\app\controllers\BaseController.php:17
+[03-Dec-2025 14:46:29 UTC] PHP Warning:  Undefined array key "email" in C:\wamp64\www\coffee-shop\app\views\admin\reservation-details.php on line 10
+[03-Dec-2025 14:46:29 UTC] PHP Stack trace:
+[03-Dec-2025 14:46:29 UTC] PHP   1. {main}() C:\wamp64\www\coffee-shop\public\index.php:0
+[03-Dec-2025 14:46:29 UTC] PHP   2. AdminReservationController->showReservationDetails() C:\wamp64\www\coffee-shop\public\index.php:319
+[03-Dec-2025 14:46:29 UTC] PHP   3. BaseController->render($view = 'admin/reservation-details', $data = ['reservation' => ['id' => 1, 'customer_id' => 1, 'table_id' => 7, 'reservation_date' => '2025-12-05', 'reservation_time' => '09:15:00', 'number_of_guests' => 7, 'status' => '0', 'created_at' => '2025-12-03 20:16:18', 'updated_at' => '2025-12-03 20:16:18', 'table_number' => 7]]) C:\wamp64\www\coffee-shop\app\controllers\AdminReservationController.php:44
+[03-Dec-2025 14:46:29 UTC] PHP   4. require() C:\wamp64\www\coffee-shop\app\controllers\BaseController.php:17
+[03-Dec-2025 14:46:29 UTC] PHP Warning:  Undefined array key "phone" in C:\wamp64\www\coffee-shop\app\views\admin\reservation-details.php on line 11
+[03-Dec-2025 14:46:29 UTC] PHP Stack trace:
+[03-Dec-2025 14:46:29 UTC] PHP   1. {main}() C:\wamp64\www\coffee-shop\public\index.php:0
+[03-Dec-2025 14:46:29 UTC] PHP   2. AdminReservationController->showReservationDetails() C:\wamp64\www\coffee-shop\public\index.php:319
+[03-Dec-2025 14:46:29 UTC] PHP   3. BaseController->render($view = 'admin/reservation-details', $data = ['reservation' => ['id' => 1, 'customer_id' => 1, 'table_id' => 7, 'reservation_date' => '2025-12-05', 'reservation_time' => '09:15:00', 'number_of_guests' => 7, 'status' => '0', 'created_at' => '2025-12-03 20:16:18', 'updated_at' => '2025-12-03 20:16:18', 'table_number' => 7]]) C:\wamp64\www\coffee-shop\app\controllers\AdminReservationController.php:44
+[03-Dec-2025 14:46:29 UTC] PHP   4. require() C:\wamp64\www\coffee-shop\app\controllers\BaseController.php:17
+[03-Dec-2025 16:50:06 UTC] PHP Warning:  Undefined array key "full_name" in C:\wamp64\www\coffee-shop\app\views\admin\reservation-details.php on line 9
+[03-Dec-2025 16:50:06 UTC] PHP Stack trace:
+[03-Dec-2025 16:50:06 UTC] PHP   1. {main}() C:\wamp64\www\coffee-shop\public\index.php:0
+[03-Dec-2025 16:50:06 UTC] PHP   2. AdminReservationController->showReservationDetails() C:\wamp64\www\coffee-shop\public\index.php:319
+[03-Dec-2025 16:50:06 UTC] PHP   3. BaseController->render($view = 'admin/reservation-details', $data = ['reservation' => ['id' => 1, 'customer_id' => 1, 'table_id' => 7, 'reservation_date' => '2025-12-05', 'reservation_time' => '09:15:00', 'number_of_guests' => 7, 'status' => '0', 'created_at' => '2025-12-03 20:16:18', 'updated_at' => '2025-12-03 20:16:18', 'table_number' => 7]]) C:\wamp64\www\coffee-shop\app\controllers\AdminReservationController.php:44
+[03-Dec-2025 16:50:06 UTC] PHP   4. require() C:\wamp64\www\coffee-shop\app\controllers\BaseController.php:17
+[03-Dec-2025 16:50:06 UTC] PHP Warning:  Undefined array key "email" in C:\wamp64\www\coffee-shop\app\views\admin\reservation-details.php on line 10
+[03-Dec-2025 16:50:06 UTC] PHP Stack trace:
+[03-Dec-2025 16:50:06 UTC] PHP   1. {main}() C:\wamp64\www\coffee-shop\public\index.php:0
+[03-Dec-2025 16:50:06 UTC] PHP   2. AdminReservationController->showReservationDetails() C:\wamp64\www\coffee-shop\public\index.php:319
+[03-Dec-2025 16:50:06 UTC] PHP   3. BaseController->render($view = 'admin/reservation-details', $data = ['reservation' => ['id' => 1, 'customer_id' => 1, 'table_id' => 7, 'reservation_date' => '2025-12-05', 'reservation_time' => '09:15:00', 'number_of_guests' => 7, 'status' => '0', 'created_at' => '2025-12-03 20:16:18', 'updated_at' => '2025-12-03 20:16:18', 'table_number' => 7]]) C:\wamp64\www\coffee-shop\app\controllers\AdminReservationController.php:44
+[03-Dec-2025 16:50:06 UTC] PHP   4. require() C:\wamp64\www\coffee-shop\app\controllers\BaseController.php:17
+[03-Dec-2025 16:50:06 UTC] PHP Warning:  Undefined array key "phone" in C:\wamp64\www\coffee-shop\app\views\admin\reservation-details.php on line 11
+[03-Dec-2025 16:50:06 UTC] PHP Stack trace:
+[03-Dec-2025 16:50:06 UTC] PHP   1. {main}() C:\wamp64\www\coffee-shop\public\index.php:0
+[03-Dec-2025 16:50:06 UTC] PHP   2. AdminReservationController->showReservationDetails() C:\wamp64\www\coffee-shop\public\index.php:319
+[03-Dec-2025 16:50:06 UTC] PHP   3. BaseController->render($view = 'admin/reservation-details', $data = ['reservation' => ['id' => 1, 'customer_id' => 1, 'table_id' => 7, 'reservation_date' => '2025-12-05', 'reservation_time' => '09:15:00', 'number_of_guests' => 7, 'status' => '0', 'created_at' => '2025-12-03 20:16:18', 'updated_at' => '2025-12-03 20:16:18', 'table_number' => 7]]) C:\wamp64\www\coffee-shop\app\controllers\AdminReservationController.php:44
+[03-Dec-2025 16:50:06 UTC] PHP   4. require() C:\wamp64\www\coffee-shop\app\controllers\BaseController.php:17
+[03-Dec-2025 17:04:59 UTC] PHP Warning:  Undefined array key "full_name" in C:\wamp64\www\coffee-shop\app\views\admin\reservation-details.php on line 9
+[03-Dec-2025 17:04:59 UTC] PHP Stack trace:
+[03-Dec-2025 17:04:59 UTC] PHP   1. {main}() C:\wamp64\www\coffee-shop\public\index.php:0
+[03-Dec-2025 17:04:59 UTC] PHP   2. AdminReservationController->showReservationDetails() C:\wamp64\www\coffee-shop\public\index.php:319
+[03-Dec-2025 17:04:59 UTC] PHP   3. BaseController->render($view = 'admin/reservation-details', $data = ['reservation' => ['id' => 1, 'customer_id' => 1, 'table_id' => 7, 'reservation_date' => '2025-12-05', 'reservation_time' => '09:15:00', 'number_of_guests' => 7, 'status' => '0', 'created_at' => '2025-12-03 20:16:18', 'updated_at' => '2025-12-03 20:16:18', 'table_number' => 7]]) C:\wamp64\www\coffee-shop\app\controllers\AdminReservationController.php:44
+[03-Dec-2025 17:04:59 UTC] PHP   4. require() C:\wamp64\www\coffee-shop\app\controllers\BaseController.php:17
+[03-Dec-2025 17:04:59 UTC] PHP Warning:  Undefined array key "email" in C:\wamp64\www\coffee-shop\app\views\admin\reservation-details.php on line 10
+[03-Dec-2025 17:04:59 UTC] PHP Stack trace:
+[03-Dec-2025 17:04:59 UTC] PHP   1. {main}() C:\wamp64\www\coffee-shop\public\index.php:0
+[03-Dec-2025 17:04:59 UTC] PHP   2. AdminReservationController->showReservationDetails() C:\wamp64\www\coffee-shop\public\index.php:319
+[03-Dec-2025 17:04:59 UTC] PHP   3. BaseController->render($view = 'admin/reservation-details', $data = ['reservation' => ['id' => 1, 'customer_id' => 1, 'table_id' => 7, 'reservation_date' => '2025-12-05', 'reservation_time' => '09:15:00', 'number_of_guests' => 7, 'status' => '0', 'created_at' => '2025-12-03 20:16:18', 'updated_at' => '2025-12-03 20:16:18', 'table_number' => 7]]) C:\wamp64\www\coffee-shop\app\controllers\AdminReservationController.php:44
+[03-Dec-2025 17:04:59 UTC] PHP   4. require() C:\wamp64\www\coffee-shop\app\controllers\BaseController.php:17
+[03-Dec-2025 17:04:59 UTC] PHP Warning:  Undefined array key "phone" in C:\wamp64\www\coffee-shop\app\views\admin\reservation-details.php on line 11
+[03-Dec-2025 17:04:59 UTC] PHP Stack trace:
+[03-Dec-2025 17:04:59 UTC] PHP   1. {main}() C:\wamp64\www\coffee-shop\public\index.php:0
+[03-Dec-2025 17:04:59 UTC] PHP   2. AdminReservationController->showReservationDetails() C:\wamp64\www\coffee-shop\public\index.php:319
+[03-Dec-2025 17:04:59 UTC] PHP   3. BaseController->render($view = 'admin/reservation-details', $data = ['reservation' => ['id' => 1, 'customer_id' => 1, 'table_id' => 7, 'reservation_date' => '2025-12-05', 'reservation_time' => '09:15:00', 'number_of_guests' => 7, 'status' => '0', 'created_at' => '2025-12-03 20:16:18', 'updated_at' => '2025-12-03 20:16:18', 'table_number' => 7]]) C:\wamp64\www\coffee-shop\app\controllers\AdminReservationController.php:44
+[03-Dec-2025 17:04:59 UTC] PHP   4. require() C:\wamp64\www\coffee-shop\app\controllers\BaseController.php:17
+[03-Dec-2025 17:05:18 UTC] PHP Warning:  Undefined array key "full_name" in C:\wamp64\www\coffee-shop\app\views\admin\order-details.php on line 9
+[03-Dec-2025 17:05:18 UTC] PHP Stack trace:
+[03-Dec-2025 17:05:18 UTC] PHP   1. {main}() C:\wamp64\www\coffee-shop\public\index.php:0
+[03-Dec-2025 17:05:18 UTC] PHP   2. AdminOrderController->showOrderDetails() C:\wamp64\www\coffee-shop\public\index.php:307
+[03-Dec-2025 17:05:18 UTC] PHP   3. BaseController->render($view = 'admin/order-details', $data = ['order' => ['id' => 3, 'customer_id' => 1, 'order_type' => 'Takeaway', 'status' => 'Pending', 'total_price' => '10.00', 'delivery_address' => '', 'table_id' => 0, 'created_at' => '2025-12-03 20:11:40', 'updated_at' => '2025-12-03 20:11:40'], 'items' => [0 => [...]]]) C:\wamp64\www\coffee-shop\app\controllers\AdminOrderController.php:49
+[03-Dec-2025 17:05:18 UTC] PHP   4. require() C:\wamp64\www\coffee-shop\app\controllers\BaseController.php:17
+[03-Dec-2025 17:05:18 UTC] PHP Warning:  Undefined array key "email" in C:\wamp64\www\coffee-shop\app\views\admin\order-details.php on line 10
+[03-Dec-2025 17:05:18 UTC] PHP Stack trace:
+[03-Dec-2025 17:05:18 UTC] PHP   1. {main}() C:\wamp64\www\coffee-shop\public\index.php:0
+[03-Dec-2025 17:05:18 UTC] PHP   2. AdminOrderController->showOrderDetails() C:\wamp64\www\coffee-shop\public\index.php:307
+[03-Dec-2025 17:05:18 UTC] PHP   3. BaseController->render($view = 'admin/order-details', $data = ['order' => ['id' => 3, 'customer_id' => 1, 'order_type' => 'Takeaway', 'status' => 'Pending', 'total_price' => '10.00', 'delivery_address' => '', 'table_id' => 0, 'created_at' => '2025-12-03 20:11:40', 'updated_at' => '2025-12-03 20:11:40'], 'items' => [0 => [...]]]) C:\wamp64\www\coffee-shop\app\controllers\AdminOrderController.php:49
+[03-Dec-2025 17:05:18 UTC] PHP   4. require() C:\wamp64\www\coffee-shop\app\controllers\BaseController.php:17
+[03-Dec-2025 17:05:18 UTC] PHP Warning:  Undefined array key "phone" in C:\wamp64\www\coffee-shop\app\views\admin\order-details.php on line 11
+[03-Dec-2025 17:05:18 UTC] PHP Stack trace:
+[03-Dec-2025 17:05:18 UTC] PHP   1. {main}() C:\wamp64\www\coffee-shop\public\index.php:0
+[03-Dec-2025 17:05:18 UTC] PHP   2. AdminOrderController->showOrderDetails() C:\wamp64\www\coffee-shop\public\index.php:307
+[03-Dec-2025 17:05:18 UTC] PHP   3. BaseController->render($view = 'admin/order-details', $data = ['order' => ['id' => 3, 'customer_id' => 1, 'order_type' => 'Takeaway', 'status' => 'Pending', 'total_price' => '10.00', 'delivery_address' => '', 'table_id' => 0, 'created_at' => '2025-12-03 20:11:40', 'updated_at' => '2025-12-03 20:11:40'], 'items' => [0 => [...]]]) C:\wamp64\www\coffee-shop\app\controllers\AdminOrderController.php:49
+[03-Dec-2025 17:05:18 UTC] PHP   4. require() C:\wamp64\www\coffee-shop\app\controllers\BaseController.php:17
+[04-Dec-2025 15:45:05 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "Rs" in C:\wamp64\www\coffee-shop\app\views\customer\cart.php:90
+Stack trace:
+#0 C:\wamp64\www\coffee-shop\app\controllers\BaseController.php(17): require()
+#1 C:\wamp64\www\coffee-shop\app\controllers\CartController.php(35): BaseController->render('customer/cart', Array)
+#2 C:\wamp64\www\coffee-shop\public\index.php(185): CartController->showCart()
+#3 {main}
+  thrown in C:\wamp64\www\coffee-shop\app\views\customer\cart.php on line 90
+[04-Dec-2025 15:45:34 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "Rs" in C:\wamp64\www\coffee-shop\app\views\customer\cart.php:90
+Stack trace:
+#0 C:\wamp64\www\coffee-shop\app\controllers\BaseController.php(17): require()
+#1 C:\wamp64\www\coffee-shop\app\controllers\CartController.php(35): BaseController->render('customer/cart', Array)
+#2 C:\wamp64\www\coffee-shop\public\index.php(185): CartController->showCart()
+#3 {main}
+  thrown in C:\wamp64\www\coffee-shop\app\views\customer\cart.php on line 90
+[04-Dec-2025 15:45:53 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "Rs" in C:\wamp64\www\coffee-shop\app\views\customer\cart.php:90
+Stack trace:
+#0 C:\wamp64\www\coffee-shop\app\controllers\BaseController.php(17): require()
+#1 C:\wamp64\www\coffee-shop\app\controllers\CartController.php(35): BaseController->render('customer/cart', Array)
+#2 C:\wamp64\www\coffee-shop\public\index.php(185): CartController->showCart()
+#3 {main}
+  thrown in C:\wamp64\www\coffee-shop\app\views\customer\cart.php on line 90
+[04-Dec-2025 15:46:42 UTC] PHP Parse error:  syntax error, unexpected token ".", expecting "->" or "?->" or "{" or "[" in C:\wamp64\www\coffee-shop\app\views\customer\account.php on line 70
+[04-Dec-2025 15:46:50 UTC] PHP Parse error:  syntax error, unexpected token ".", expecting "->" or "?->" or "{" or "[" in C:\wamp64\www\coffee-shop\app\views\customer\account.php on line 70
+[04-Dec-2025 15:50:28 UTC] PHP Parse error:  syntax error, unexpected token ".", expecting "->" or "?->" or "{" or "[" in C:\wamp64\www\coffee-shop\app\views\customer\account.php on line 70
+[04-Dec-2025 15:50:36 UTC] PHP Parse error:  syntax error, unexpected token ".", expecting "->" or "?->" or "{" or "[" in C:\wamp64\www\coffee-shop\app\views\customer\account.php on line 70
+[04-Dec-2025 15:50:43 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "Rs" in C:\wamp64\www\coffee-shop\app\views\customer\cart.php:90
+Stack trace:
+#0 C:\wamp64\www\coffee-shop\app\controllers\BaseController.php(17): require()
+#1 C:\wamp64\www\coffee-shop\app\controllers\CartController.php(35): BaseController->render('customer/cart', Array)
+#2 C:\wamp64\www\coffee-shop\public\index.php(185): CartController->showCart()
+#3 {main}
+  thrown in C:\wamp64\www\coffee-shop\app\views\customer\cart.php on line 90
+[04-Dec-2025 15:50:48 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "Rs" in C:\wamp64\www\coffee-shop\app\views\customer\cart.php:90
+Stack trace:
+#0 C:\wamp64\www\coffee-shop\app\controllers\BaseController.php(17): require()
+#1 C:\wamp64\www\coffee-shop\app\controllers\CartController.php(35): BaseController->render('customer/cart', Array)
+#2 C:\wamp64\www\coffee-shop\public\index.php(185): CartController->showCart()
+#3 {main}
+  thrown in C:\wamp64\www\coffee-shop\app\views\customer\cart.php on line 90
+[04-Dec-2025 15:50:50 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "Rs" in C:\wamp64\www\coffee-shop\app\views\customer\cart.php:90
+Stack trace:
+#0 C:\wamp64\www\coffee-shop\app\controllers\BaseController.php(17): require()
+#1 C:\wamp64\www\coffee-shop\app\controllers\CartController.php(35): BaseController->render('customer/cart', Array)
+#2 C:\wamp64\www\coffee-shop\public\index.php(185): CartController->showCart()
+#3 {main}
+  thrown in C:\wamp64\www\coffee-shop\app\views\customer\cart.php on line 90
+[04-Dec-2025 15:52:41 UTC] PHP Parse error:  syntax error, unexpected token ".", expecting "->" or "?->" or "{" or "[" in C:\wamp64\www\coffee-shop\app\views\customer\account.php on line 70
+[05-Dec-2025 03:55:46 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "Rs" in C:\wamp64\www\coffee-shop\app\views\customer\cart.php:90
+Stack trace:
+#0 C:\wamp64\www\coffee-shop\app\controllers\BaseController.php(17): require()
+#1 C:\wamp64\www\coffee-shop\app\controllers\CartController.php(35): BaseController->render('customer/cart', Array)
+#2 C:\wamp64\www\coffee-shop\public\index.php(185): CartController->showCart()
+#3 {main}
+  thrown in C:\wamp64\www\coffee-shop\app\views\customer\cart.php on line 90
+[05-Dec-2025 03:56:16 UTC] PHP Parse error:  syntax error, unexpected token ".", expecting "->" or "?->" or "{" or "[" in C:\wamp64\www\coffee-shop\app\views\customer\account.php on line 70
+[05-Dec-2025 04:06:18 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "Rs" in C:\wamp64\www\coffee-shop\app\views\customer\cart.php:90
+Stack trace:
+#0 C:\wamp64\www\coffee-shop\app\controllers\BaseController.php(17): require()
+#1 C:\wamp64\www\coffee-shop\app\controllers\CartController.php(35): BaseController->render('customer/cart', Array)
+#2 C:\wamp64\www\coffee-shop\public\index.php(185): CartController->showCart()
+#3 {main}
+  thrown in C:\wamp64\www\coffee-shop\app\views\customer\cart.php on line 90
+[05-Dec-2025 04:08:21 UTC] PHP Parse error:  syntax error, unexpected token ".", expecting "->" or "?->" or "{" or "[" in C:\wamp64\www\coffee-shop\app\views\customer\checkout.php on line 42
+[05-Dec-2025 04:08:37 UTC] PHP Parse error:  syntax error, unexpected token ".", expecting "->" or "?->" or "{" or "[" in C:\wamp64\www\coffee-shop\app\views\customer\checkout.php on line 42
+[05-Dec-2025 04:09:21 UTC] PHP Parse error:  syntax error, unexpected token ".", expecting "->" or "?->" or "{" or "[" in C:\wamp64\www\coffee-shop\app\views\customer\checkout.php on line 42
+[05-Dec-2025 04:09:37 UTC] PHP Parse error:  syntax error, unexpected token ".", expecting "->" or "?->" or "{" or "[" in C:\wamp64\www\coffee-shop\app\views\customer\checkout.php on line 42
+[05-Dec-2025 04:10:17 UTC] PHP Parse error:  syntax error, unexpected token ".", expecting "->" or "?->" or "{" or "[" in C:\wamp64\www\coffee-shop\app\views\customer\checkout.php on line 42
+[05-Dec-2025 04:11:16 UTC] PHP Parse error:  syntax error, unexpected token ".", expecting "->" or "?->" or "{" or "[" in C:\wamp64\www\coffee-shop\app\views\customer\checkout.php on line 42
+[05-Dec-2025 04:17:42 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "Rs" in C:\wamp64\www\coffee-shop\app\views\admin\order-details.php:12
+Stack trace:
+#0 C:\wamp64\www\coffee-shop\app\controllers\BaseController.php(17): require()
+#1 C:\wamp64\www\coffee-shop\app\controllers\AdminOrderController.php(49): BaseController->render('admin/order-det...', Array)
+#2 C:\wamp64\www\coffee-shop\public\index.php(307): AdminOrderController->showOrderDetails()
+#3 {main}
+  thrown in C:\wamp64\www\coffee-shop\app\views\admin\order-details.php on line 12
+[05-Dec-2025 04:17:49 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "Rs" in C:\wamp64\www\coffee-shop\app\views\admin\order-details.php:12
+Stack trace:
+#0 C:\wamp64\www\coffee-shop\app\controllers\BaseController.php(17): require()
+#1 C:\wamp64\www\coffee-shop\app\controllers\AdminOrderController.php(49): BaseController->render('admin/order-det...', Array)
+#2 C:\wamp64\www\coffee-shop\public\index.php(307): AdminOrderController->showOrderDetails()
+#3 {main}
+  thrown in C:\wamp64\www\coffee-shop\app\views\admin\order-details.php on line 12
+[05-Dec-2025 04:17:58 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "Rs" in C:\wamp64\www\coffee-shop\app\views\admin\order-details.php:12
+Stack trace:
+#0 C:\wamp64\www\coffee-shop\app\controllers\BaseController.php(17): require()
+#1 C:\wamp64\www\coffee-shop\app\controllers\AdminOrderController.php(49): BaseController->render('admin/order-det...', Array)
+#2 C:\wamp64\www\coffee-shop\public\index.php(307): AdminOrderController->showOrderDetails()
+#3 {main}
+  thrown in C:\wamp64\www\coffee-shop\app\views\admin\order-details.php on line 12
+[05-Dec-2025 04:18:09 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "Rs" in C:\wamp64\www\coffee-shop\app\views\admin\order-details.php:12
+Stack trace:
+#0 C:\wamp64\www\coffee-shop\app\controllers\BaseController.php(17): require()
+#1 C:\wamp64\www\coffee-shop\app\controllers\AdminOrderController.php(49): BaseController->render('admin/order-det...', Array)
+#2 C:\wamp64\www\coffee-shop\public\index.php(307): AdminOrderController->showOrderDetails()
+#3 {main}
+  thrown in C:\wamp64\www\coffee-shop\app\views\admin\order-details.php on line 12
+[05-Dec-2025 04:19:00 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "Rs" in C:\wamp64\www\coffee-shop\app\views\admin\order-details.php:12
+Stack trace:
+#0 C:\wamp64\www\coffee-shop\app\controllers\BaseController.php(17): require()
+#1 C:\wamp64\www\coffee-shop\app\controllers\AdminOrderController.php(49): BaseController->render('admin/order-det...', Array)
+#2 C:\wamp64\www\coffee-shop\public\index.php(307): AdminOrderController->showOrderDetails()
+#3 {main}
+  thrown in C:\wamp64\www\coffee-shop\app\views\admin\order-details.php on line 12
+[05-Dec-2025 04:21:12 UTC] PHP Warning:  Undefined array key "full_name" in C:\wamp64\www\coffee-shop\app\views\admin\order-details.php on line 29
+[05-Dec-2025 04:21:12 UTC] PHP Stack trace:
+[05-Dec-2025 04:21:12 UTC] PHP   1. {main}() C:\wamp64\www\coffee-shop\public\index.php:0
+[05-Dec-2025 04:21:12 UTC] PHP   2. AdminOrderController->showOrderDetails() C:\wamp64\www\coffee-shop\public\index.php:307
+[05-Dec-2025 04:21:12 UTC] PHP   3. BaseController->render($view = 'admin/order-details', $data = ['order' => ['id' => 6, 'customer_id' => 1, 'order_type' => 'Delivery', 'status' => 'Completed', 'total_price' => '1350.00', 'delivery_address' => 'test ,test', 'table_id' => 0, 'created_at' => '2025-12-05 09:47:22', 'updated_at' => '2025-12-05 09:48:38'], 'items' => [0 => [...], 1 => [...]]]) C:\wamp64\www\coffee-shop\app\controllers\AdminOrderController.php:49
+[05-Dec-2025 04:21:12 UTC] PHP   4. require() C:\wamp64\www\coffee-shop\app\controllers\BaseController.php:17
+[05-Dec-2025 04:21:12 UTC] PHP Warning:  Undefined array key "email" in C:\wamp64\www\coffee-shop\app\views\admin\order-details.php on line 33
+[05-Dec-2025 04:21:12 UTC] PHP Stack trace:
+[05-Dec-2025 04:21:12 UTC] PHP   1. {main}() C:\wamp64\www\coffee-shop\public\index.php:0
+[05-Dec-2025 04:21:12 UTC] PHP   2. AdminOrderController->showOrderDetails() C:\wamp64\www\coffee-shop\public\index.php:307
+[05-Dec-2025 04:21:12 UTC] PHP   3. BaseController->render($view = 'admin/order-details', $data = ['order' => ['id' => 6, 'customer_id' => 1, 'order_type' => 'Delivery', 'status' => 'Completed', 'total_price' => '1350.00', 'delivery_address' => 'test ,test', 'table_id' => 0, 'created_at' => '2025-12-05 09:47:22', 'updated_at' => '2025-12-05 09:48:38'], 'items' => [0 => [...], 1 => [...]]]) C:\wamp64\www\coffee-shop\app\controllers\AdminOrderController.php:49
+[05-Dec-2025 04:21:12 UTC] PHP   4. require() C:\wamp64\www\coffee-shop\app\controllers\BaseController.php:17
+[05-Dec-2025 04:21:12 UTC] PHP Warning:  Undefined array key "email" in C:\wamp64\www\coffee-shop\app\views\admin\order-details.php on line 33
+[05-Dec-2025 04:21:12 UTC] PHP Stack trace:
+[05-Dec-2025 04:21:12 UTC] PHP   1. {main}() C:\wamp64\www\coffee-shop\public\index.php:0
+[05-Dec-2025 04:21:12 UTC] PHP   2. AdminOrderController->showOrderDetails() C:\wamp64\www\coffee-shop\public\index.php:307
+[05-Dec-2025 04:21:12 UTC] PHP   3. BaseController->render($view = 'admin/order-details', $data = ['order' => ['id' => 6, 'customer_id' => 1, 'order_type' => 'Delivery', 'status' => 'Completed', 'total_price' => '1350.00', 'delivery_address' => 'test ,test', 'table_id' => 0, 'created_at' => '2025-12-05 09:47:22', 'updated_at' => '2025-12-05 09:48:38'], 'items' => [0 => [...], 1 => [...]]]) C:\wamp64\www\coffee-shop\app\controllers\AdminOrderController.php:49
+[05-Dec-2025 04:21:12 UTC] PHP   4. require() C:\wamp64\www\coffee-shop\app\controllers\BaseController.php:17
+[05-Dec-2025 04:21:12 UTC] PHP Warning:  Undefined array key "phone" in C:\wamp64\www\coffee-shop\app\views\admin\order-details.php on line 37
+[05-Dec-2025 04:21:12 UTC] PHP Stack trace:
+[05-Dec-2025 04:21:12 UTC] PHP   1. {main}() C:\wamp64\www\coffee-shop\public\index.php:0
+[05-Dec-2025 04:21:12 UTC] PHP   2. AdminOrderController->showOrderDetails() C:\wamp64\www\coffee-shop\public\index.php:307
+[05-Dec-2025 04:21:12 UTC] PHP   3. BaseController->render($view = 'admin/order-details', $data = ['order' => ['id' => 6, 'customer_id' => 1, 'order_type' => 'Delivery', 'status' => 'Completed', 'total_price' => '1350.00', 'delivery_address' => 'test ,test', 'table_id' => 0, 'created_at' => '2025-12-05 09:47:22', 'updated_at' => '2025-12-05 09:48:38'], 'items' => [0 => [...], 1 => [...]]]) C:\wamp64\www\coffee-shop\app\controllers\AdminOrderController.php:49
+[05-Dec-2025 04:21:12 UTC] PHP   4. require() C:\wamp64\www\coffee-shop\app\controllers\BaseController.php:17
+[05-Dec-2025 04:21:12 UTC] PHP Warning:  Undefined array key "phone" in C:\wamp64\www\coffee-shop\app\views\admin\order-details.php on line 37
+[05-Dec-2025 04:21:12 UTC] PHP Stack trace:
+[05-Dec-2025 04:21:12 UTC] PHP   1. {main}() C:\wamp64\www\coffee-shop\public\index.php:0
+[05-Dec-2025 04:21:12 UTC] PHP   2. AdminOrderController->showOrderDetails() C:\wamp64\www\coffee-shop\public\index.php:307
+[05-Dec-2025 04:21:12 UTC] PHP   3. BaseController->render($view = 'admin/order-details', $data = ['order' => ['id' => 6, 'customer_id' => 1, 'order_type' => 'Delivery', 'status' => 'Completed', 'total_price' => '1350.00', 'delivery_address' => 'test ,test', 'table_id' => 0, 'created_at' => '2025-12-05 09:47:22', 'updated_at' => '2025-12-05 09:48:38'], 'items' => [0 => [...], 1 => [...]]]) C:\wamp64\www\coffee-shop\app\controllers\AdminOrderController.php:49
+[05-Dec-2025 04:21:12 UTC] PHP   4. require() C:\wamp64\www\coffee-shop\app\controllers\BaseController.php:17
+[05-Dec-2025 04:21:24 UTC] PHP Warning:  Undefined array key "full_name" in C:\wamp64\www\coffee-shop\app\views\admin\order-details.php on line 29
+[05-Dec-2025 04:21:24 UTC] PHP Stack trace:
+[05-Dec-2025 04:21:24 UTC] PHP   1. {main}() C:\wamp64\www\coffee-shop\public\index.php:0
+[05-Dec-2025 04:21:24 UTC] PHP   2. AdminOrderController->showOrderDetails() C:\wamp64\www\coffee-shop\public\index.php:307
+[05-Dec-2025 04:21:24 UTC] PHP   3. BaseController->render($view = 'admin/order-details', $data = ['order' => ['id' => 6, 'customer_id' => 1, 'order_type' => 'Delivery', 'status' => 'Completed', 'total_price' => '1350.00', 'delivery_address' => 'test ,test', 'table_id' => 0, 'created_at' => '2025-12-05 09:47:22', 'updated_at' => '2025-12-05 09:48:38'], 'items' => [0 => [...], 1 => [...]]]) C:\wamp64\www\coffee-shop\app\controllers\AdminOrderController.php:49
+[05-Dec-2025 04:21:24 UTC] PHP   4. require() C:\wamp64\www\coffee-shop\app\controllers\BaseController.php:17
+[05-Dec-2025 04:21:24 UTC] PHP Warning:  Undefined array key "email" in C:\wamp64\www\coffee-shop\app\views\admin\order-details.php on line 33
+[05-Dec-2025 04:21:24 UTC] PHP Stack trace:
+[05-Dec-2025 04:21:24 UTC] PHP   1. {main}() C:\wamp64\www\coffee-shop\public\index.php:0
+[05-Dec-2025 04:21:24 UTC] PHP   2. AdminOrderController->showOrderDetails() C:\wamp64\www\coffee-shop\public\index.php:307
+[05-Dec-2025 04:21:24 UTC] PHP   3. BaseController->render($view = 'admin/order-details', $data = ['order' => ['id' => 6, 'customer_id' => 1, 'order_type' => 'Delivery', 'status' => 'Completed', 'total_price' => '1350.00', 'delivery_address' => 'test ,test', 'table_id' => 0, 'created_at' => '2025-12-05 09:47:22', 'updated_at' => '2025-12-05 09:48:38'], 'items' => [0 => [...], 1 => [...]]]) C:\wamp64\www\coffee-shop\app\controllers\AdminOrderController.php:49
+[05-Dec-2025 04:21:24 UTC] PHP   4. require() C:\wamp64\www\coffee-shop\app\controllers\BaseController.php:17
+[05-Dec-2025 04:21:24 UTC] PHP Warning:  Undefined array key "email" in C:\wamp64\www\coffee-shop\app\views\admin\order-details.php on line 33
+[05-Dec-2025 04:21:24 UTC] PHP Stack trace:
+[05-Dec-2025 04:21:24 UTC] PHP   1. {main}() C:\wamp64\www\coffee-shop\public\index.php:0
+[05-Dec-2025 04:21:24 UTC] PHP   2. AdminOrderController->showOrderDetails() C:\wamp64\www\coffee-shop\public\index.php:307
+[05-Dec-2025 04:21:24 UTC] PHP   3. BaseController->render($view = 'admin/order-details', $data = ['order' => ['id' => 6, 'customer_id' => 1, 'order_type' => 'Delivery', 'status' => 'Completed', 'total_price' => '1350.00', 'delivery_address' => 'test ,test', 'table_id' => 0, 'created_at' => '2025-12-05 09:47:22', 'updated_at' => '2025-12-05 09:48:38'], 'items' => [0 => [...], 1 => [...]]]) C:\wamp64\www\coffee-shop\app\controllers\AdminOrderController.php:49
+[05-Dec-2025 04:21:24 UTC] PHP   4. require() C:\wamp64\www\coffee-shop\app\controllers\BaseController.php:17
+[05-Dec-2025 04:21:24 UTC] PHP Warning:  Undefined array key "phone" in C:\wamp64\www\coffee-shop\app\views\admin\order-details.php on line 37
+[05-Dec-2025 04:21:24 UTC] PHP Stack trace:
+[05-Dec-2025 04:21:24 UTC] PHP   1. {main}() C:\wamp64\www\coffee-shop\public\index.php:0
+[05-Dec-2025 04:21:24 UTC] PHP   2. AdminOrderController->showOrderDetails() C:\wamp64\www\coffee-shop\public\index.php:307
+[05-Dec-2025 04:21:24 UTC] PHP   3. BaseController->render($view = 'admin/order-details', $data = ['order' => ['id' => 6, 'customer_id' => 1, 'order_type' => 'Delivery', 'status' => 'Completed', 'total_price' => '1350.00', 'delivery_address' => 'test ,test', 'table_id' => 0, 'created_at' => '2025-12-05 09:47:22', 'updated_at' => '2025-12-05 09:48:38'], 'items' => [0 => [...], 1 => [...]]]) C:\wamp64\www\coffee-shop\app\controllers\AdminOrderController.php:49
+[05-Dec-2025 04:21:24 UTC] PHP   4. require() C:\wamp64\www\coffee-shop\app\controllers\BaseController.php:17
+[05-Dec-2025 04:21:24 UTC] PHP Warning:  Undefined array key "phone" in C:\wamp64\www\coffee-shop\app\views\admin\order-details.php on line 37
+[05-Dec-2025 04:21:24 UTC] PHP Stack trace:
+[05-Dec-2025 04:21:24 UTC] PHP   1. {main}() C:\wamp64\www\coffee-shop\public\index.php:0
+[05-Dec-2025 04:21:24 UTC] PHP   2. AdminOrderController->showOrderDetails() C:\wamp64\www\coffee-shop\public\index.php:307
+[05-Dec-2025 04:21:24 UTC] PHP   3. BaseController->render($view = 'admin/order-details', $data = ['order' => ['id' => 6, 'customer_id' => 1, 'order_type' => 'Delivery', 'status' => 'Completed', 'total_price' => '1350.00', 'delivery_address' => 'test ,test', 'table_id' => 0, 'created_at' => '2025-12-05 09:47:22', 'updated_at' => '2025-12-05 09:48:38'], 'items' => [0 => [...], 1 => [...]]]) C:\wamp64\www\coffee-shop\app\controllers\AdminOrderController.php:49
+[05-Dec-2025 04:21:24 UTC] PHP   4. require() C:\wamp64\www\coffee-shop\app\controllers\BaseController.php:17
+[05-Dec-2025 04:21:33 UTC] PHP Warning:  Undefined array key "full_name" in C:\wamp64\www\coffee-shop\app\views\admin\order-details.php on line 29
+[05-Dec-2025 04:21:33 UTC] PHP Stack trace:
+[05-Dec-2025 04:21:33 UTC] PHP   1. {main}() C:\wamp64\www\coffee-shop\public\index.php:0
+[05-Dec-2025 04:21:33 UTC] PHP   2. AdminOrderController->showOrderDetails() C:\wamp64\www\coffee-shop\public\index.php:307
+[05-Dec-2025 04:21:33 UTC] PHP   3. BaseController->render($view = 'admin/order-details', $data = ['order' => ['id' => 3, 'customer_id' => 1, 'order_type' => 'Takeaway', 'status' => 'Pending', 'total_price' => '10.00', 'delivery_address' => '', 'table_id' => 0, 'created_at' => '2025-12-03 20:11:40', 'updated_at' => '2025-12-03 20:11:40'], 'items' => []]) C:\wamp64\www\coffee-shop\app\controllers\AdminOrderController.php:49
+[05-Dec-2025 04:21:33 UTC] PHP   4. require() C:\wamp64\www\coffee-shop\app\controllers\BaseController.php:17
+[05-Dec-2025 04:21:33 UTC] PHP Warning:  Undefined array key "email" in C:\wamp64\www\coffee-shop\app\views\admin\order-details.php on line 33
+[05-Dec-2025 04:21:33 UTC] PHP Stack trace:
+[05-Dec-2025 04:21:33 UTC] PHP   1. {main}() C:\wamp64\www\coffee-shop\public\index.php:0
+[05-Dec-2025 04:21:33 UTC] PHP   2. AdminOrderController->showOrderDetails() C:\wamp64\www\coffee-shop\public\index.php:307
+[05-Dec-2025 04:21:33 UTC] PHP   3. BaseController->render($view = 'admin/order-details', $data = ['order' => ['id' => 3, 'customer_id' => 1, 'order_type' => 'Takeaway', 'status' => 'Pending', 'total_price' => '10.00', 'delivery_address' => '', 'table_id' => 0, 'created_at' => '2025-12-03 20:11:40', 'updated_at' => '2025-12-03 20:11:40'], 'items' => []]) C:\wamp64\www\coffee-shop\app\controllers\AdminOrderController.php:49
+[05-Dec-2025 04:21:33 UTC] PHP   4. require() C:\wamp64\www\coffee-shop\app\controllers\BaseController.php:17
+[05-Dec-2025 04:21:33 UTC] PHP Warning:  Undefined array key "email" in C:\wamp64\www\coffee-shop\app\views\admin\order-details.php on line 33
+[05-Dec-2025 04:21:33 UTC] PHP Stack trace:
+[05-Dec-2025 04:21:33 UTC] PHP   1. {main}() C:\wamp64\www\coffee-shop\public\index.php:0
+[05-Dec-2025 04:21:33 UTC] PHP   2. AdminOrderController->showOrderDetails() C:\wamp64\www\coffee-shop\public\index.php:307
+[05-Dec-2025 04:21:33 UTC] PHP   3. BaseController->render($view = 'admin/order-details', $data = ['order' => ['id' => 3, 'customer_id' => 1, 'order_type' => 'Takeaway', 'status' => 'Pending', 'total_price' => '10.00', 'delivery_address' => '', 'table_id' => 0, 'created_at' => '2025-12-03 20:11:40', 'updated_at' => '2025-12-03 20:11:40'], 'items' => []]) C:\wamp64\www\coffee-shop\app\controllers\AdminOrderController.php:49
+[05-Dec-2025 04:21:33 UTC] PHP   4. require() C:\wamp64\www\coffee-shop\app\controllers\BaseController.php:17
+[05-Dec-2025 04:21:33 UTC] PHP Warning:  Undefined array key "phone" in C:\wamp64\www\coffee-shop\app\views\admin\order-details.php on line 37
+[05-Dec-2025 04:21:33 UTC] PHP Stack trace:
+[05-Dec-2025 04:21:33 UTC] PHP   1. {main}() C:\wamp64\www\coffee-shop\public\index.php:0
+[05-Dec-2025 04:21:33 UTC] PHP   2. AdminOrderController->showOrderDetails() C:\wamp64\www\coffee-shop\public\index.php:307
+[05-Dec-2025 04:21:33 UTC] PHP   3. BaseController->render($view = 'admin/order-details', $data = ['order' => ['id' => 3, 'customer_id' => 1, 'order_type' => 'Takeaway', 'status' => 'Pending', 'total_price' => '10.00', 'delivery_address' => '', 'table_id' => 0, 'created_at' => '2025-12-03 20:11:40', 'updated_at' => '2025-12-03 20:11:40'], 'items' => []]) C:\wamp64\www\coffee-shop\app\controllers\AdminOrderController.php:49
+[05-Dec-2025 04:21:33 UTC] PHP   4. require() C:\wamp64\www\coffee-shop\app\controllers\BaseController.php:17
+[05-Dec-2025 04:21:33 UTC] PHP Warning:  Undefined array key "phone" in C:\wamp64\www\coffee-shop\app\views\admin\order-details.php on line 37
+[05-Dec-2025 04:21:33 UTC] PHP Stack trace:
+[05-Dec-2025 04:21:33 UTC] PHP   1. {main}() C:\wamp64\www\coffee-shop\public\index.php:0
+[05-Dec-2025 04:21:33 UTC] PHP   2. AdminOrderController->showOrderDetails() C:\wamp64\www\coffee-shop\public\index.php:307
+[05-Dec-2025 04:21:33 UTC] PHP   3. BaseController->render($view = 'admin/order-details', $data = ['order' => ['id' => 3, 'customer_id' => 1, 'order_type' => 'Takeaway', 'status' => 'Pending', 'total_price' => '10.00', 'delivery_address' => '', 'table_id' => 0, 'created_at' => '2025-12-03 20:11:40', 'updated_at' => '2025-12-03 20:11:40'], 'items' => []]) C:\wamp64\www\coffee-shop\app\controllers\AdminOrderController.php:49
+[05-Dec-2025 04:21:33 UTC] PHP   4. require() C:\wamp64\www\coffee-shop\app\controllers\BaseController.php:17
+[05-Dec-2025 04:21:41 UTC] PHP Warning:  Undefined array key "full_name" in C:\wamp64\www\coffee-shop\app\views\admin\order-details.php on line 29
+[05-Dec-2025 04:21:41 UTC] PHP Stack trace:
+[05-Dec-2025 04:21:41 UTC] PHP   1. {main}() C:\wamp64\www\coffee-shop\public\index.php:0
+[05-Dec-2025 04:21:41 UTC] PHP   2. AdminOrderController->showOrderDetails() C:\wamp64\www\coffee-shop\public\index.php:307
+[05-Dec-2025 04:21:41 UTC] PHP   3. BaseController->render($view = 'admin/order-details', $data = ['order' => ['id' => 3, 'customer_id' => 1, 'order_type' => 'Takeaway', 'status' => 'Processing', 'total_price' => '10.00', 'delivery_address' => '', 'table_id' => 0, 'created_at' => '2025-12-03 20:11:40', 'updated_at' => '2025-12-05 09:51:36'], 'items' => []]) C:\wamp64\www\coffee-shop\app\controllers\AdminOrderController.php:49
+[05-Dec-2025 04:21:41 UTC] PHP   4. require() C:\wamp64\www\coffee-shop\app\controllers\BaseController.php:17
+[05-Dec-2025 04:21:41 UTC] PHP Warning:  Undefined array key "email" in C:\wamp64\www\coffee-shop\app\views\admin\order-details.php on line 33
+[05-Dec-2025 04:21:41 UTC] PHP Stack trace:
+[05-Dec-2025 04:21:41 UTC] PHP   1. {main}() C:\wamp64\www\coffee-shop\public\index.php:0
+[05-Dec-2025 04:21:41 UTC] PHP   2. AdminOrderController->showOrderDetails() C:\wamp64\www\coffee-shop\public\index.php:307
+[05-Dec-2025 04:21:41 UTC] PHP   3. BaseController->render($view = 'admin/order-details', $data = ['order' => ['id' => 3, 'customer_id' => 1, 'order_type' => 'Takeaway', 'status' => 'Processing', 'total_price' => '10.00', 'delivery_address' => '', 'table_id' => 0, 'created_at' => '2025-12-03 20:11:40', 'updated_at' => '2025-12-05 09:51:36'], 'items' => []]) C:\wamp64\www\coffee-shop\app\controllers\AdminOrderController.php:49
+[05-Dec-2025 04:21:41 UTC] PHP   4. require() C:\wamp64\www\coffee-shop\app\controllers\BaseController.php:17
+[05-Dec-2025 04:21:41 UTC] PHP Warning:  Undefined array key "email" in C:\wamp64\www\coffee-shop\app\views\admin\order-details.php on line 33
+[05-Dec-2025 04:21:41 UTC] PHP Stack trace:
+[05-Dec-2025 04:21:41 UTC] PHP   1. {main}() C:\wamp64\www\coffee-shop\public\index.php:0
+[05-Dec-2025 04:21:41 UTC] PHP   2. AdminOrderController->showOrderDetails() C:\wamp64\www\coffee-shop\public\index.php:307
+[05-Dec-2025 04:21:41 UTC] PHP   3. BaseController->render($view = 'admin/order-details', $data = ['order' => ['id' => 3, 'customer_id' => 1, 'order_type' => 'Takeaway', 'status' => 'Processing', 'total_price' => '10.00', 'delivery_address' => '', 'table_id' => 0, 'created_at' => '2025-12-03 20:11:40', 'updated_at' => '2025-12-05 09:51:36'], 'items' => []]) C:\wamp64\www\coffee-shop\app\controllers\AdminOrderController.php:49
+[05-Dec-2025 04:21:41 UTC] PHP   4. require() C:\wamp64\www\coffee-shop\app\controllers\BaseController.php:17
+[05-Dec-2025 04:21:41 UTC] PHP Warning:  Undefined array key "phone" in C:\wamp64\www\coffee-shop\app\views\admin\order-details.php on line 37
+[05-Dec-2025 04:21:41 UTC] PHP Stack trace:
+[05-Dec-2025 04:21:41 UTC] PHP   1. {main}() C:\wamp64\www\coffee-shop\public\index.php:0
+[05-Dec-2025 04:21:41 UTC] PHP   2. AdminOrderController->showOrderDetails() C:\wamp64\www\coffee-shop\public\index.php:307
+[05-Dec-2025 04:21:41 UTC] PHP   3. BaseController->render($view = 'admin/order-details', $data = ['order' => ['id' => 3, 'customer_id' => 1, 'order_type' => 'Takeaway', 'status' => 'Processing', 'total_price' => '10.00', 'delivery_address' => '', 'table_id' => 0, 'created_at' => '2025-12-03 20:11:40', 'updated_at' => '2025-12-05 09:51:36'], 'items' => []]) C:\wamp64\www\coffee-shop\app\controllers\AdminOrderController.php:49
+[05-Dec-2025 04:21:41 UTC] PHP   4. require() C:\wamp64\www\coffee-shop\app\controllers\BaseController.php:17
+[05-Dec-2025 04:21:41 UTC] PHP Warning:  Undefined array key "phone" in C:\wamp64\www\coffee-shop\app\views\admin\order-details.php on line 37
+[05-Dec-2025 04:21:41 UTC] PHP Stack trace:
+[05-Dec-2025 04:21:41 UTC] PHP   1. {main}() C:\wamp64\www\coffee-shop\public\index.php:0
+[05-Dec-2025 04:21:41 UTC] PHP   2. AdminOrderController->showOrderDetails() C:\wamp64\www\coffee-shop\public\index.php:307
+[05-Dec-2025 04:21:41 UTC] PHP   3. BaseController->render($view = 'admin/order-details', $data = ['order' => ['id' => 3, 'customer_id' => 1, 'order_type' => 'Takeaway', 'status' => 'Processing', 'total_price' => '10.00', 'delivery_address' => '', 'table_id' => 0, 'created_at' => '2025-12-03 20:11:40', 'updated_at' => '2025-12-05 09:51:36'], 'items' => []]) C:\wamp64\www\coffee-shop\app\controllers\AdminOrderController.php:49
+[05-Dec-2025 04:21:41 UTC] PHP   4. require() C:\wamp64\www\coffee-shop\app\controllers\BaseController.php:17
+[04-Jan-2026 08:17:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on bool in C:\xampp\htdocs\coffee-shop\app\models\MenuItem.php:26
+Stack trace:
+#0 C:\xampp\htdocs\coffee-shop\app\controllers\MenuController.php(19): MenuItem->getAll()
+#1 C:\xampp\htdocs\coffee-shop\public\index.php(171): MenuController->showMenu()
+#2 {main}
+  thrown in C:\xampp\htdocs\coffee-shop\app\models\MenuItem.php on line 26
+[04-Jan-2026 08:17:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on bool in C:\xampp\htdocs\coffee-shop\app\models\MenuItem.php:26
+Stack trace:
+#0 C:\xampp\htdocs\coffee-shop\app\controllers\MenuController.php(19): MenuItem->getAll()
+#1 C:\xampp\htdocs\coffee-shop\public\index.php(171): MenuController->showMenu()
+#2 {main}
+  thrown in C:\xampp\htdocs\coffee-shop\app\models\MenuItem.php on line 26
+[04-Jan-2026 08:17:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on bool in C:\xampp\htdocs\coffee-shop\app\models\MenuItem.php:26
+Stack trace:
+#0 C:\xampp\htdocs\coffee-shop\app\controllers\MenuController.php(19): MenuItem->getAll()
+#1 C:\xampp\htdocs\coffee-shop\public\index.php(171): MenuController->showMenu()
+#2 {main}
+  thrown in C:\xampp\htdocs\coffee-shop\app\models\MenuItem.php on line 26
+[04-Jan-2026 08:17:32 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on bool in C:\xampp\htdocs\coffee-shop\app\models\MenuItem.php:26
+Stack trace:
+#0 C:\xampp\htdocs\coffee-shop\app\controllers\MenuController.php(19): MenuItem->getAll()
+#1 C:\xampp\htdocs\coffee-shop\public\index.php(171): MenuController->showMenu()
+#2 {main}
+  thrown in C:\xampp\htdocs\coffee-shop\app\models\MenuItem.php on line 26
+[04-Jan-2026 08:17:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on bool in C:\xampp\htdocs\coffee-shop\app\models\MenuItem.php:26
+Stack trace:
+#0 C:\xampp\htdocs\coffee-shop\app\controllers\MenuController.php(19): MenuItem->getAll()
+#1 C:\xampp\htdocs\coffee-shop\public\index.php(171): MenuController->showMenu()
+#2 {main}
+  thrown in C:\xampp\htdocs\coffee-shop\app\models\MenuItem.php on line 26
+[04-Jan-2026 08:18:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on bool in C:\xampp\htdocs\coffee-shop\app\models\MenuItem.php:26
+Stack trace:
+#0 C:\xampp\htdocs\coffee-shop\app\controllers\MenuController.php(19): MenuItem->getAll()
+#1 C:\xampp\htdocs\coffee-shop\public\index.php(171): MenuController->showMenu()
+#2 {main}
+  thrown in C:\xampp\htdocs\coffee-shop\app\models\MenuItem.php on line 26
+[04-Jan-2026 08:18:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on bool in C:\xampp\htdocs\coffee-shop\app\models\MenuItem.php:26
+Stack trace:
+#0 C:\xampp\htdocs\coffee-shop\app\controllers\MenuController.php(19): MenuItem->getAll()
+#1 C:\xampp\htdocs\coffee-shop\public\index.php(171): MenuController->showMenu()
+#2 {main}
+  thrown in C:\xampp\htdocs\coffee-shop\app\models\MenuItem.php on line 26

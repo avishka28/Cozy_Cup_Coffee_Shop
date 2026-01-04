@@ -1,0 +1,410 @@
+/* Admin Panel Styles */
+
+.admin-container {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.admin-container h1 {
+    border-bottom: 3px solid var(--primary-color);
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+.admin-table {
+    background-color: white;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.admin-table thead {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.admin-table th {
+    padding: 1rem;
+    text-align: left;
+    font-weight: bold;
+}
+
+.admin-table td {
+    padding: 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.admin-table tbody tr:hover {
+    background-color: var(--light-bg);
+}
+
+.admin-table tbody tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+.admin-form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    max-width: 600px;
+}
+
+.admin-form h1 {
+    margin-bottom: 2rem;
+}
+
+.admin-form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.admin-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.admin-form input,
+.admin-form textarea,
+.admin-form select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+.admin-form input:focus,
+.admin-form textarea:focus,
+.admin-form select:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 5px rgba(139, 69, 19, 0.3);
+}
+
+.admin-form button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    margin-right: 0.5rem;
+}
+
+.admin-form button:hover {
+    background-color: var(--secondary-color);
+}
+
+.admin-form button[type="button"] {
+    background-color: #6c757d;
+}
+
+.admin-form button[type="button"]:hover {
+    background-color: #5a6268;
+}
+
+/* Order Management */
+.order-info {
+    background-color: var(--light-bg);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.order-info p {
+    margin-bottom: 0.75rem;
+}
+
+.order-info strong {
+    color: var(--primary-color);
+}
+
+.order-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.order-actions .btn {
+    flex: 1;
+    min-width: 150px;
+}
+
+/* Reservation Management */
+.reservation-info {
+    background-color: var(--light-bg);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.reservation-info p {
+    margin-bottom: 0.75rem;
+}
+
+.reservation-info strong {
+    color: var(--primary-color);
+}
+
+.reservation-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.reservation-actions .btn {
+    flex: 1;
+    min-width: 150px;
+}
+
+/* Customer Management */
+.customer-info {
+    background-color: var(--light-bg);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.customer-info p {
+    margin-bottom: 0.75rem;
+}
+
+.customer-info strong {
+    color: var(--primary-color);
+}
+
+/* Dashboard */
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.dashboard-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-left: 4px solid var(--primary-color);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.dashboard-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+.dashboard-card p {
+    color: #666;
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+}
+
+.dashboard-card .btn {
+    width: 100%;
+    text-align: center;
+}
+
+/* Menu Management */
+.menu-item-image {
+    max-width: 100px;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Status Badges */
+.status-badge {
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.status-pending {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.status-processing {
+    background-color: #d1ecf1;
+    color: #0c5460;
+}
+
+.status-completed {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.status-rejected {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.status-accepted {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.status-declined {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* Action Buttons */
+.btn-group {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.btn-group .btn {
+    flex: 1;
+    min-width: 80px;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 5% auto;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.modal-content h2 {
+    margin-bottom: 1.5rem;
+    color: var(--primary-color);
+}
+
+.modal-content .form-group {
+    margin-bottom: 1rem;
+}
+
+.modal-content .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.modal-content .form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+.modal-content button {
+    padding: 0.75rem 1.5rem;
+    margin-right: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.modal-content button[type="submit"] {
+    background-color: var(--danger-color);
+    color: white;
+}
+
+.modal-content button[type="submit"]:hover {
+    background-color: #c82333;
+}
+
+.modal-content button[type="button"] {
+    background-color: #6c757d;
+    color: white;
+}
+
+.modal-content button[type="button"]:hover {
+    background-color: #5a6268;
+}
+
+/* Responsive Admin */
+@media (max-width: 768px) {
+    .admin-table {
+        font-size: 0.9rem;
+    }
+    
+    .admin-table th,
+    .admin-table td {
+        padding: 0.75rem 0.5rem;
+    }
+    
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .admin-form {
+        max-width: 100%;
+    }
+    
+    .order-actions,
+    .reservation-actions,
+    .btn-group {
+        flex-direction: column;
+    }
+    
+    .order-actions .btn,
+    .reservation-actions .btn,
+    .btn-group .btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .admin-table {
+        font-size: 0.8rem;
+    }
+    
+    .admin-table th,
+    .admin-table td {
+        padding: 0.5rem 0.25rem;
+    }
+    
+    .admin-container {
+        padding: 1rem;
+    }
+    
+    .admin-form {
+        padding: 1rem;
+    }
+    
+    .modal-content {
+        width: 95%;
+        padding: 1.5rem;
+    }
+}
+
